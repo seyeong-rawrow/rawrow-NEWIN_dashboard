@@ -11,4 +11,4 @@ robocopy "$SRC\A-1. raw input (MP)" "$DST\A-1. raw input (MP)" /E /R:2 /W:2 /NFL
 robocopy "$SRC\d. new in"           "$DST\d. new in"           "발매정보.xlsx" /R:2 /W:2 /NFL /NDL /NP | Out-Null
 
 $n = (Get-ChildItem -Recurse -File $DST | Measure-Object).Count
-Write-Host "[NEWIN sync] 완료 -> $DST  (파일 $n개)  $(Get-Date -Format 'HH:mm:ss')"
+Write-Host "[NEWIN sync] 완료 -> $DST  (파일 $($n)개)  $(Get-Date -Format 'HH:mm:ss')"
