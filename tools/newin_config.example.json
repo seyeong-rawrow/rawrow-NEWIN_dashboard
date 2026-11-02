@@ -1,0 +1,20 @@
+{
+  "operator_name": "",
+  "os": "win32",
+  "github_user": "",
+  "git_author_name": "",
+  "git_author_email": "",
+  "repo_name": "rawrow-NEWIN_dashboard",
+  "live_url": "",
+  "onboarding": {
+    "step0_folder": false,
+    "step1_github": false,
+    "step2_pat": false,
+    "step3_vercel": false,
+    "step4_raw": false,
+    "step5_test": false,
+    "step6_rules_ok": false,
+    "completed": false,
+    "completed_at": ""
+  }
+}
